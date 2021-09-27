@@ -47,5 +47,5 @@ echo 'export PATH=~/.bin:$PATH' >> ~/.bashrc
 # Setup Git.
 read -p "Type your git username: " user_prompt
 git config --global user.name $user_prompt
-read -p "Type your git username: " email_prompt
+read -p "Type your git email: " email_prompt
 git config --global user.email $email_prompt
